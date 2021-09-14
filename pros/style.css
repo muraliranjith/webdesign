@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+  
+}
+li{
+    list-style-type:none;
+    
+  
+}
+
+#a1{
+    color: whitesmoke;
+}
+#a2{
+    color: whitesmoke;
+}
+
+#ap{
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+.menu{
+    background-color: red;
+    height: 5vh;
+}
+.navigation{
+    background:#000;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+   
+  
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+  
+}
+#ap:hover {
+
+    color:skyblue;
+}
+#a1:hover{
+    color: skyblue;
+}
+#a2:hover{
+    color: skyblue;
+}
+
+#burger{
+    color: white;
+    transform:translateY(30%);
+display: none;
+    
+}
+#burger:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+
+
+
+.text{
+    background-color:white;
+    height: 5vh;
+    width: 100%;
+    
+}
+.wd{
+    text-align: center;
+    transform: translateY(10px);
+   
+}
+.wd a{
+    text-decoration: none;
+}
+.wd a:hover{
+
+    
+    text-decoration: underline;
+
+}
+
+
+.p1{
+    width: 100%;
+    height:70vh;
+    background:black;
+}
+.event{
+    background-image: url(./pic/event.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    cursor: pointer;
+    
+
+}
+.p2{
+    text-align: center;
+    transform: translateY(500px);
+    color:white
+}
+.p2 a{
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+.p2 a:hover{
+    text-decoration: underline;
+   
+}
+.phon{
+    width: 100%;
+    height: 80vh;
+    background:white;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.phon1{
+
+    text-align: center;
+    
+}
+
+
+.p3
+{
+ 
+    background-image: url(./pic/ph.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 14vh;
+    height: 60vh;
+   
+    background-position: center;
+}
+
+.phon1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(0, 89, 255);
+}
+
+
+.phone1{
+    width: 100%;
+    height: 80vh;
+    background:black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.p4{
+    background-image: url(./pic/php.png);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    
+    margin-top: 14vh;
+    height: 60vh;
+   
+    background-position: center;
+}
+.phone12{
+    text-align: center;
+  
+    color: white;
+}
+.phone12 a{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    margin-left: 30px;
+}
+
+.pad{
+    width: 100%;
+    height: 70vh;
+    background-color: gray;
+    margin-top: 20px;
+}
+.col1{
+    width: 48%;
+    height: 100%;
+    margin-left: 0px;
+    background-color: black;
+    background: ;
+    display: flex;
+}
+
+.col2{
+    width: 48%;
+    height: 100%;
+    margin-left: 0px;
+    background-color: black;
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width:840px)
+{
+    .links{
+        width: 100%;
+    }
+    .text{
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .p1{
+        width: 100%;
+        height:70vh;
+        background:black;
+        position:sticky;
+        margin: 0%;
+    }
+    .event{
+        background-position: cover;
+        margin: 0;
+    }
+    .p2{
+        transform: translateY(350px);
+        text-align: center;
+       
+    }
+    .phon{
+        width: 100%;
+        height: 70vh;
+        background:white;
+        margin-top: 10px;
+        cursor: pointer;
+        background-position: cover;
+        
+    }
+    .phon1{
+    
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    
+    
+    .p3
+    {
+     
+        background-image: url(./pic/ph.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 1vh;
+        height: 60vh;
+       
+        background-position: center;
+    }
+    .phone1{
+        width: 100%;
+        height: 80vh;
+      
+        margin-top: 10vh;
+    }
+    .p4{
+        background-image: url(./pic/php.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 14vh;
+        height: 60vh;
+       
+        background-position: center;
+    }
+    .phone12{
+        text-align: center;
+      
+        color: white;
+    }
+    
+
+        
+}
+
+@media screen and (max-width:574px)
+{
+    
+   #ap{
+       display:none;
+      
+    }
+    #burger{
+
+        display:inline;
+        margin-left: 20px;
+       
+    }
+    #a1{
+        display: block;
+        margin-left: 200px;
+    }
+    .text{
+        font-size: 8px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .p1{
+        width: 100%;
+        height:70vh;
+        background:black;
+       
+    }
+    .event{
+        background-position: cover;
+        margin: 0;
+    }
+    .p2{
+        transform: translateY(350px);
+        text-align: center;
+       
+    }
+    .p3
+    {
+     
+        background-image: url(./pic/ph.png);
+        background-repeat: no-repeat;
+        background-size: 570px;
+        margin-top: 5vh;
+        height: 50vh;
+       
+        background-position: center;
+    }
+    .phon{
+        margin:5px;
+        height: 60vh;
+        
+
+    }
+    .phone1{
+        width: 100%;
+        height: 70vh;
+      
+ 
+    }
+    .p4{
+        background-image: url(./pic/php.png);
+        background-repeat: no-repeat;
+        background-size: 600px;
+        margin-top: 5vh;
+        height: 50vh;
+       
+        background-position: center;
+    }
+    .phone12{
+        text-align: center;
+      
+        color: white;
+    }
+    
+
+
+   
+}
